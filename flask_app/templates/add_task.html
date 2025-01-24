@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Task</title>
+</head>
+<body>
+    <h1>Add a Task to a Project</h1>
+    <form action="/add_task" method="post">
+        <label for="project_name">Project Name:</label>
+        <input type="text" id="project_name" name="project_name" required><br><br>
+        <label for="task_name">Task Name:</label>
+        <input type="text" id="task_name" name="task_name" required><br><br>
+        <label for="status">Status:</label>
+        <input type="text" id="status" name="status" value="pending"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
